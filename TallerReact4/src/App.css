@@ -1,0 +1,73 @@
+/* App.css */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #e0f7fa; /* Fondo suave */
+    margin: 0;
+    padding: 20px;
+}
+
+.App {
+    max-width: 600px;
+    margin: auto;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    transition: transform 0.2s;
+}
+
+.App:hover {
+    transform: scale(1.02); /* Efecto de ampliación al pasar el ratón */
+}
+
+h1 {
+    text-align: center;
+    color: #00796b; /* Color verde azulado */
+    font-size: 2.5rem;
+}
+
+button {
+    background-color: #009688; /* Color principal */
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #00796b; /* Color oscuro al pasar el ratón */
+    transform: translateY(-2px); /* Efecto de elevación */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+input[type="text"],
+input[type="number"] {
+    padding: 12px;
+    border: 2px solid #009688; /* Color de borde */
+    border-radius: 6px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #004d40; /* Color al enfocar */
+    outline: none;
+}
+
+h3 {
+    color: #004d40; /* Texto en color oscuro */
+    text-align: center;
+    font-size: 1.5rem;
+}
+
